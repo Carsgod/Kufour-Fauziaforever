@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kufour & Fauzia - Our Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">K & F </span>
+                </a>
+            </div>
+
+            <!-- Desktop Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#thecouple" class="nav-link">Meet the couple</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#our-story" class="nav-link">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Our Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#rsvp" class="nav-link">RSVP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Mobile Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section id="home" class="hero-slider">
+
+        <div class="slider-container">
+            <!-- Slide 1: Two halves with wedding info -->
+            <div class="slide active">
+                <div class="hero-container">
+                    <div class="hero-half hero-left"></div>
+                    <div class="hero-half hero-right"></div>
+                </div>
+                <div class="hero-center">
+                    <div class="hero-card">
+                        <h2 class="hero-names">Kufour & Fauzia</h2>
+                        <p class="hero-location">Jada Residence,East Legon.</p>
+                        <p class="hero-date">February 14, 2026.</p>
+                        <a href="#rsvp" class="hero-cta">RSVP Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Full background with text overlay -->
+            <div class="slide">
+                <div class="hero-full-bg" style="background-image: url('images/second hero.jpeg');"></div>
+                <div class="hero-center">
+                    <div class="hero-text-overlay">
+                        <h2 class="hero-text-main">we decided to live happily together</h2>
+                        <p class="hero-text-sub">she said yes</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3: Full background with text overlay -->
+            <div class="slide">
+                <div class="hero-full-bg hero-bg-3"></div>
+                <div class="hero-center">
+                    <div class="hero-text-overlay hero-text-final">
+                        <h2 class="hero-text-main hero-text-journey">my love for you is a journey</h2>
+                       
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Slide 4: Video slide -->
+            <div class="slide">
+                <video id="hero-video" class="hero-video">
+                    <source src="video of couple.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <button id="video-play-pause-btn" class="video-control-btn">
+                    <i class="fas fa-pause"></i>
+                </button>
+                <button id="video-mute-btn" class="video-control-btn video-mute-btn">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <button class="slider-dot active" data-slide="0"></button>
+            <button class="slider-dot" data-slide="1"></button>
+            <button class="slider-dot" data-slide="2"></button>
+            <button class="slider-dot" data-slide="3"></button>
+        </div>
+
+        <!-- Slider Arrows -->
+        <button class="slider-arrow slider-prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider-arrow slider-next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </section>
+
+    <!-- The Couple -->
+    <section id="thecouple" class="the-couple-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="couple-main-title">
+                        <h2 class="text-thm2 ">The Couple</h2>
+                        <img src="images/green-flower.png" alt="title-bottom.png">
+                    </div>
+                </div>
+            </div>
+            <div class="couple-container">
+                <div class="couple-item couple-card">
+                    <div class="about-box couple-text fade-in-right">
+                        <div class="about-details text-right tac-xsd">
+                            <h2 class="text-thm2 hero-text-sub">Bride</h2>
+                            <h4>Fauzia</h4>
+                            <p>I am Fauzia Duut,the bride.I take this opportunity to express my sincere appreciation to my family,mentors and friends who have positively impacted my life.I remain  grateful for your love and support.</p>
+                        </div>
+                    </div>
+                    <div class="about-box couple-image">
+                        <div class="about-thumb tac-xsd">
+                            <img src="images/new bride.jpg" alt="bride.jpg" class="floating-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-line"></div>
+                <div class="couple-heart">
+                    <div class="couple-img">
+                        <img class="img-responsive" src="images/new divider.jpg" alt="couple-heart.png"
+                            class="floating-heart">
+                    </div>
+                </div>
+                <div class="divider-line"></div>
+                <div class="couple-item">
+                    <div class="about-box couple-image fade-in-up">
+                        <div class="about-thumb tac-xsd">
+                            <img src="images/new groom.jpg" alt="groom.jpg" class="floating-image">
+                        </div>
+                    </div>
+                    <div class="about-box couple-text couple-card fade-in-left">
+                        <div class="about-details tac-xsd">
+                            <h2 class="text-thm2 hero-text-sub">Groom</h2>
+                            <h4>Kufour</h4>
+                            <p>I am Kufuor,the groom and as I step into this new chapter with joy.Grateful to journey with Fauzia as my co-author,writing a love into eternity.Your prescence  blesses this moment for us and our families,always.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Countdown Timer -->
+    <section id="countdown" class="countdown-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="ulockd-main-title">
+
+
+                    </div>
+                    <section class="countdown-section">
+                                     <h2 class="countdown-title">Left Till The Event</h2>
+                                     <div class="countdown-date">February 14, 2026.</div>
+            
+                                     <div class="countdown-wrapper">
+            
+                                         <div class="count-column">
+                                             <div class="count-box" id="days">00</div>
+                                             <div class="count-label">Days</div>
+                                         </div>
+            
+                                         <div class="count-separator">:</div>
+            
+                                         <div class="count-column">
+                                             <div class="count-box" id="hours">00</div>
+                                             <div class="count-label">Hours</div>
+                                         </div>
+            
+                                         <div class="count-separator">:</div>
+            
+                                         <div class="count-column">
+                                             <div class="count-box" id="minutes">00</div>
+                                             <div class="count-label">Minutes</div>
+                                         </div>
+            
+                                         <div class="count-separator">:</div>
+            
+                                         <div class="count-column">
+                                             <div class="count-box" id="seconds">00</div>
+                                             <div class="count-label">Seconds</div>
+                                         </div>
+                                     </div>
+                                 </section>
+                                 <img src="images/image at the countdown.jpg" alt="Countdown Image" class="countdown-image">
+
+                </div>
+    </section>
+
+    <!-- Our Story -->
+    <section id="our-story" class="our-story-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="ulockd-main-title">
+                        <h2 class="text-thm2 hero-text-sub">Our Story</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="story-item left">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/our storey diff.jpeg" alt="How We Met">
+                        </div>
+                        <div class="story-text">
+                            <h3>How We Met</h3>
+                            <p>The beautiful love story we celebrate today began in 2024, during our postgraduate
+                                studies in International Relations at the University of Ghana, LECIAD. It was a rainy
+                                afternoon, and Fauzia had stepped out to collect her lunch from a dispatch rider, just
+                                as Kufuor was hurrying back from his car to escape the downpour. We quite literally
+                                bumped into each other at the faculty entrance, a simple moment made unforgettable by
+                                the rain's embrace.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="story-item right">
+                    <div class="story-content">
+                        <div class="story-text">
+                            <h3>A Friendship to Remember</h3>
+                            <p>On countless occasions, we showed deep commitment to nurturing our friendship from
+                                supporting each other with academic assignments, preparing reading summaries, and
+                                sharing presentation notes, to studying side by side for exams. We exchanged beautiful
+                                thoughts, agreed and disagreed on issues, and most importantly, always cheered each
+                                other on. These cherished moments gave birth to our special nicknames: Marco (Kufuor)
+                                and Polo (Fauzia).</p>
+                        </div>
+                        <div class="story-image">
+                            <img src="images/one forgotten.jpeg" alt="Friendship">
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="story-item left">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/best moments.jpeg" alt="Celebrating Moments">
+                        </div>
+                        <div class="story-text">
+                            <h3>Celebrating Our Moments</h3>
+                            <p>We always made it a point to celebrate even the smallest wins. From the excitement of
+                                completing weekly lectures and engaging in extracurricular activities, to marking
+                                special occasions like birthdays, promotions, family milestones, and anniversaries — we
+                                embraced them all with love and joy. Whether at the beach, the cinema, visiting family,
+                                or dining at our favorite restaurant, Ocean Basket, where we created many of our fondest
+                                memories, every moment was special because we shared it together.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="story-item right">
+                    <div class="story-content">
+                        <div class="story-text">
+                            <h3>The Proposal</h3>
+                            <p>Days of friendship grew into weeks of unforgettable memories, and months of two imperfect
+                                souls writing their own forever story. One evening, after a beautiful night out, just
+                                before we drove off, Marco gently reached for my left hand. Looking straight into my
+                                eyes, he spoke softly: "This is a priceless gift. My grandmother gave it to me before
+                                she passed on, telling me to present it to the woman I would take as my wife. Today, I
+                                give it to you. Will you be my partner, my wife, the mother of my children, and
+                                everything my heart desires?" With all my heart, I said "Yes!" — emphatically and
+                                forever.</p>
+                        </div>
+                        <div class="story-image">
+                            <img src="images/the proposal.jpeg" alt="The Proposal">
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="story-item left">
+                    <div class="story-content">
+                        <div class="story-image">
+                            <img src="images/the jorney forever.jpeg" alt="Journey Forever">
+                        </div>
+                        <div class="story-text">
+                            <h3>Journey Forever</h3>
+                            <p>A journey that began as friendship—study partners, best friends, and each other's
+                                greatest supporters—now blossoms into a beautiful new beginning as husband and wife.
+                                With the love, guidance, and blessings of God and our parents, we step into this next
+                                chapter. So, help us God.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="gallery-title">
+                        <h2 class="text-thm2">Our Gallery</h2>
+                        <img src="images/green-flower.png" alt="title-bottom.png">
+                        <p class="gallery-subtitle">Capturing the beautiful moments of our special day</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Filters -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="custom">Traditional</button>
+                <button class="filter-btn" data-filter="vintage">Vintage</button>
+                <button class="filter-btn" data-filter="classic">Classic</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-container">
+                <!-- Custom Category -->
+                <div class="gallery-item" data-category="custom">
+                    <img src="images/pic 2.jpeg" alt="Wedding Moment 1">
+                    <figcaption>Cherished memories from our special day</figcaption>
+                </div>
+                <div class="gallery-item" data-category="vintage">
+                    <img src="images/pic 12.jpeg" alt="Wedding Moment 2">
+                    <figcaption>Love in every detail</figcaption>
+                </div>
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/pic 6.jpeg" alt="Wedding Moment 3">
+                    <figcaption>Timeless elegance</figcaption>
+                </div>
+                <div class="gallery-item" data-category="vintage">
+                    <img src="images/pic 11.jpeg" alt="Wedding Moment 4">
+                    <figcaption>Beautiful beginnings</figcaption>
+                </div>
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/pic 1.jpeg" alt="Wedding Moment 5">
+                    <figcaption>Joyful celebrations</figcaption>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <img src="images/pic 3.jpeg" alt="Wedding Moment 6">
+                    <figcaption>Forever together</figcaption>
+                </div>
+
+                <!-- Vintage Category -->
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/pic 5.jpeg" alt="Vintage Wedding 1">
+                    <figcaption>Classic romance</figcaption>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <img src="images/pic 4.jpeg" alt="Vintage Wedding 2">
+                    <figcaption>Elegant traditions</figcaption>
+                </div>
+                <div class="gallery-item" data-category="vintage">
+                    <img src="images/pic 10.jpeg" alt="Vintage Wedding 3">
+                    <figcaption>Timeless love</figcaption>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <img src="images/third  hero.jpeg" alt="Vintage Wedding 4">
+                    <figcaption>Graceful moments</figcaption>
+                </div>
+                <div class="gallery-item" data-category="vintage">
+                    <img src="images/pic 9.jpeg" alt="Vintage Wedding 5">
+                    <figcaption>Romantic memories</figcaption>
+                </div>
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/pic 7.jpeg" alt="Vintage Wedding 6">
+                    <figcaption>Eternal bond</figcaption>
+                </div>
+
+                <!-- Classic Category -->
+                <div class="gallery-item" data-category="vintage">
+                    <img src="images/pic 8.jpeg" alt="Classic Wedding 1">
+                    <figcaption>Sophisticated style</figcaption>
+                </div>
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/groom pic.jpeg" alt="Classic Wedding 2">
+                    <figcaption>Classic charm</figcaption>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <img src="images/first hero right.jpeg" alt="Classic Wedding 3">
+                    <figcaption>Traditional beauty</figcaption>
+                </div>
+                <div class="gallery-item" data-category="classic">
+                    <img src="images/classic new.jpeg" alt="Classic Wedding 4">
+                    <figcaption>Artistic elegance</figcaption>
+                </div>
+                <div class="gallery-item" data-category="custom">
+                    <img src="images/first hero left.jpeg" alt="Classic Wedding 5">
+                    <figcaption>Refined moments</figcaption>
+                </div>
+                <div class="gallery-item" data-category="vintage">
+                    <img src="images/last vintage.jpeg" alt="Classic Wedding 6">
+                    <figcaption>Perfect harmony</figcaption>
+                </div>
+            </div>
+
+            <!-- Lightbox Modal -->
+            <div id="gallery-lightbox" class="gallery-lightbox">
+                <span class="lightbox-close">&times;</span>
+                <button class="lightbox-arrow lightbox-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-arrow lightbox-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <img class="lightbox-image" id="lightbox-img" src="" alt="">
+                <div class="lightbox-caption" id="lightbox-caption"></div>
+                <div class="lightbox-counter" id="lightbox-counter"></div>
+            </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="rsvp-title">
+                        <h2 class="text-thm2">WELCOME TO OUR BIG DAY.</h2>
+
+                        <p class="rsvp-subtitle">We can't wait to celebrate with you! Please let us know if you'll be
+                            joining us.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rsvp-form-container">
+                <form id="rsvp-form" class="rsvp-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">Full Name *</label>
+                            <input type="text" id="full-name" name="full-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests *</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group attendance-group">
+                        <label>Will you be attending? *</label>
+                        <div class="attendance-options">
+                            <label class="attendance-option">
+                                <input type="radio" name="attendance" value="yes" required>
+                                <span class="checkmark"></span>
+                                Yes, I'll be there!
+                            </label>
+                            <label class="attendance-option">
+                                <input type="radio" name="attendance" value="no">
+                                <span class="checkmark"></span>
+                                Sorry, I can't make it
+                            </label>
+                            <label class="attendance-option">
+                                <input type="radio" name="attendance" value="maybe">
+                                <span class="checkmark"></span>
+                                Maybe, I'll let you know
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group category-group">
+                        <label>Kindly check the box for the category to which you belong:</label>
+                        <div class="category-options">
+                            <label class="category-option">
+                                <input type="radio" name="category" value="family">
+                                <span class="checkmark"></span>
+                                Family
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="GCCI-Godlife Central Church International">
+                                <span class="checkmark"></span>
+                                GCCI-Godlife Central Church International
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="LECIAD">
+                                <span class="checkmark"></span>
+                                LECIAD
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="University Of Ghana">
+                                <span class="checkmark"></span>
+                                University Of Ghana
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="GTUC">
+                                <span class="checkmark"></span>
+                                GTUC
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="Tema Parents">
+                                <span class="checkmark"></span>
+                                Tema Parents
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="Accra Girls Secondary School">
+                                <span class="checkmark"></span>
+                                Accra Girls Secondary School
+                            </label>
+                            <label class="category-option">
+                                <input type="radio" name="category" value="Mothercare International School">
+                                <span class="checkmark"></span>
+                                Mothercare International School
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="rsvp-submit-btn">Send RSVP</button>
+                    </div>
+
+                    <div class="rsvp-note">
+                        <p>The more you place songs the longer we dance....</p>
+                    </div>
+                    <div class="dress-codes">
+                        <h3>Dress Code</h3>
+                        <div class="dress-code-event">
+                            <h4>Engagement</h4>
+                            <p><strong>Men:</strong>White with a touch of African print. </p>
+                            <p><strong>Women:</strong>White with a touch of African print.</p>
+                        </div>
+                        <div class="dress-code-event">
+                            <h4>Church Wedding</h4>
+                            <p><strong>Men:</strong> White attire</p>
+                            <p><strong>Women:</strong> White attire</p>
+                        </div>
+                        <div class="dress-code-event">
+                            <h4>Reception</h4>
+                            <p><strong>Men:</strong> Black tie or formal</p>
+                            <p><strong>Women:</strong> Evening gowns</p>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- RSVP Choice Modal -->
+                <div id="rsvp-modal" class="rsvp-modal">
+                    <div class="rsvp-modal-content">
+                        <h3>How would you like to send your RSVP?</h3>
+                        <div class="rsvp-modal-buttons">
+                            <button id="rsvp-gmail-btn" class="rsvp-modal-btn gmail-btn">Send via Gmail</button>
+                            <button id="rsvp-whatsapp-btn" class="rsvp-modal-btn whatsapp-btn">Send via
+                                WhatsApp</button>
+                            <button id="rsvp-sms-btn" class="rsvp-modal-btn sms-btn">Send via SMS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <!-- Location -->
+        <section id="location" class="location">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps?q=Ceinode+Ghana+Accra,+Ghana&output=embed" width="100%"
+                    height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact-title">
+                        <h2 class="text-thm2">Contact Us</h2>
+                        <p class="contact-subtitle">Get in touch with us directly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us instantly</p>
+                    <a href="https://wa.me/233207349801" target="_blank" class="contact-link">Message Us</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>Call us directly</p>
+                    <a href="tel:233208433745" class="contact-link">Call Now</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Send us an email</p>
+                    <a href="mailto:Fauziaduut46@gmail.com" class="contact-link">Email Us</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="footer-logo-text">K & F</span>
+                    </div>
+                    <p class="footer-description">We can’t wait to see all of our beloved friends and relatives at our
+                        wedding. Your presence will make our day truly special!.</p>
+                </div>
+                <div class="footer-section glass-prism">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#thecouple">Meet the Couple</a></li>
+                        <li><a href="#our-story">Our Story</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#rsvp">RSVP</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section glass-prism">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><a href="tel:+233208433745"><i class="fas fa-phone"></i> +233 208 433 745</a></li>
+                        <li><a href="mailto:Fauziaduut46@gmail.com"><i class="fas fa-envelope"></i>
+                                Fauziaduut46@gmail.com</a></li>
+                        <li><a href="https://wa.me/233207349801" target="_blank"><i class="fab fa-whatsapp"></i> +233
+                                207 349 801</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span class="accent-orange">Kufour & Fauzia</span>. All rights reserved. | Built by <a
+                        href="https://my-portfolio-dev-eight.vercel.app" target="_blank">NANA KWESI</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" title="Go to top">⮝</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
